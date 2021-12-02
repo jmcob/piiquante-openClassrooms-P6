@@ -9,6 +9,8 @@ exports.createSauce = (req, res, next) => {
     ...sauceObject,
     likes: 0,
     dislikes: 0,
+    usersDisliked: [],
+    usersLiked: [],
     imageUrl: `${req.protocol}://${req.get("host")}/images/${
       req.file.filename
     }`,
