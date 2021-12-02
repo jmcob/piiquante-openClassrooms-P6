@@ -7,6 +7,8 @@ exports.createSauce = (req, res, next) => {
   delete sauceObject._id;
   const sauce = new Sauce({
     ...sauceObject,
+    likes: 0,
+    dislikes: 0,
     imageUrl: `${req.protocol}://${req.get("host")}/images/${
       req.file.filename
     }`,
@@ -102,7 +104,7 @@ exports.likeSauce = (req, res, next) => {
     Sauce.updateOne(
       { _id: sauceId },
       {
-        $inc: { dislikes: like },
+        $inc: { dislikes: -1 * like },
         $push: { usersDisliked: userId },
       }
     )
