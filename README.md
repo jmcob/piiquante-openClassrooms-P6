@@ -37,3 +37,9 @@ Nous utilisons express() pour la configuration du router. Express est un module 
 ## Mongoose
 
 Mongoose facilite la communication avec une base de donnée mongoDB ; mongoose est conçu pour node.js dont il est un module. Créer un schéma, appliquer le CRUD avec notre base de donnée, tout est possible avec Mongoose.
+Utilisation de dotenv pour securiser l'acces a mongoDB.
+
+## Helmet & dotenv
+
+Helmet permet a l'application de respecter les recommandations OWASP.
+Dotenv permet de sécuriser les accès a la base de donnée mongoDB
