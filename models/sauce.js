@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-// schéma d'une sauce
+// schéma of a sauce
 const sauceSchema = mongoose.Schema({
   userId: { type: String, required: true },
   name: { type: String, required: true },
