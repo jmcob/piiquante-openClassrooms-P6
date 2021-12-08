@@ -1,6 +1,6 @@
 # piiquante - openClassrooms web developer P6 2021
 
-📣 Le projet n'est pas utilisable pour l'utilisateur que vous êtes, je vous suggère de me contacter a partir de mon site web www.jmax.dev si vous souhaitez l'installer et le tester. 📣
+📣 Le projet n'est pas utilisable pour l'utilisateur que vous êtes, je vous suggère de me contacter a partir de mon site web http://www.jmax.dev si vous souhaitez l'installer et le tester. 📣
 
 ## Introduction
 
@@ -26,11 +26,11 @@ Le site web est authentifiée par utilisateur et mot de passe (route auth);
 
 ## Node.js
 
-Nous utilisons ici node.js pour construire le backend et ainsi ajouter les modules nécéssaires déja cités.
+Nous utilisons ici node.js pour construire le backend et ainsi ajouter les modules nécéssaires déja cités, et décrits plus bas.
 
-pour lancer ce programme, vous devez disposer du frontend openclassrooms disponible sur https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6
+Afin de lancer ce programme, si vous avez les clés du fichier .env (voire ensuite), vous devez disposer du frontend openclassrooms disponible sur https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6
 
-Sur un terminal dans le dossier du frontend, lancez "ng serve"
+Dans un terminal dans le dossier du frontend, lancez "ng serve".
 
 Dans le dossier de ce backend, dans un terminal lancez "nodemon server", en ayant les clés stockées dans les variables d'environnement par mon biais. Sans cela vous n'aurez pas accès a mongoDB.
 
