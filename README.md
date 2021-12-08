@@ -32,7 +32,7 @@ pour lancer ce programme, vous devez disposer du frontend openclassrooms disponi
 
 Sur un terminal dans le dossier du frontend, lancez "ng serve"
 
-Dans le dossier de ce backend, dans un terminal lancez "nodemon server"
+Dans le dossier de ce backend, dans un terminal lancez "nodemon server", en ayant les clés stockées dans les variables d'environnement par mon biais. Sans cela vous n'aurez pas accès a mongoDB.
 
 
 ## Express()
