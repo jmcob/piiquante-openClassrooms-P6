@@ -15,6 +15,8 @@ Nous installons tous les modules nécéssaires au backend dans ce repo :
 
 4. helmet, dotenv, multer;
 
+5. bcrypt, Json Web Tokens (JWT)
+
 ## piiquante est un site d'avis gastronomiques
 
 Nous pouvons ici poster des sauces : une route sauce est ajoutée avec un controller (un middleware);
@@ -63,7 +65,13 @@ Multer récupère et stocke sur le serveur les fichiers envoyés par les utilisa
 
 Helmet permet a l'application de respecter les recommandations OWASP.
 
+## JWT : JSON Web Tokens
 
+JWT est un module node.js qui permet de crypter les tokens d'authentification envoyés au client pour authentifier leur session.
+
+## bcrypt
+
+Bcrypt permet de faire un "hash" du mot de passe du client, de maniere a ce que cette chaine de caractère ne soit pas stockées coté serveur (mais seulement ce hash). Ainsi lorsque l'utilisateur se connecte avec son mot de passe, ce mot de passe est de nouveau haché et comparé au hash du serveur. Si les deux hash viennent du même mot de passe, les hash se reconnaitront.
 
 Merci de m'avoir lu.
 
