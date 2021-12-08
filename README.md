@@ -1,6 +1,6 @@
 # piiquante - openClassrooms web developer P6 2021
 
-/!\ Le projet n'est pas utilisable pour l'utilisateur que vous êtes, je vous suggère de me contacter a partir de mon site web www.jmax.dev
+/!\ Le projet n'est pas utilisable pour l'utilisateur que vous êtes, je vous suggère de me contacter a partir de mon site web www.jmax.dev si vous souhaitez l'installer et le tester.
 
 ## Introduction
 
