@@ -67,7 +67,7 @@ Helmet permet a l'application de respecter les recommandations OWASP.
 
 ## JWT : JSON Web Tokens
 
-JWT est un module node.js qui permet de crypter les tokens d'authentification envoyés au client pour authentifier leur session.
+JWT est un module node.js qui permet de crypter les tokens d'authentification envoyés au client pour authentifier leur session, selon une clé définie par le développeur. Cette clé est généralement stockée dans le fichier .env.
 
 ## bcrypt
 
