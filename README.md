@@ -47,6 +47,10 @@ Nous utilisons express() pour la configuration du router. Express est un module 
 Mongoose facilite la communication avec une base de donnée mongoDB ; mongoose est conçu pour node.js dont il est un module. Créer un schéma, appliquer le CRUD avec notre base de donnée, tout est possible avec Mongoose.
 Utilisation de dotenv pour securiser l'acces a mongoDB.
 
+## Multer
+
+Multer récupère et stocke sur le serveur les fichiers envoyés par les utilisateurs. Ici, il est configuré de manière à stocker dans le dossier images/ les images de sauces proposées par chaque utilisateur.
+
 ## Dotenv
 
 Dotenv permet de travailler avec des variables d'environnement et sécuriser les mots de passe d'un backend node.js.
@@ -56,10 +60,6 @@ La documentation de dotenv se trouve ici : https://www.npmjs.com/package/dotenv 
 Succintement, il vous faudra installer dotenv sur le projet, puis definir une constante qui vaudra [require('dotenv').config()] dans le fichier app.js. Un fichier nommé tout simplement [.env] sans les crochets stockera les données sensibles qui ne peuvent pas être partagées publiquement sur GitHub par exemple. Vous avez un exemple de ces données sur .env.example dans ce projet.
 
 Ce fichier pourra tout de même etre envoyé sur les serveurs d'hébergement de manière sécurisée, comme Heroku ou Google Workspace.
-
-## Multer
-
-Multer récupère et stocke sur le serveur les fichiers envoyés par les utilisateurs. Ici, il est configuré de manière à stocker dans le dossier images/ les images de sauces proposées par chaque utilisateur.
 
 ## Helmet
 
