@@ -1,4 +1,4 @@
-# piiquante - openClassrooms web developer P6 2021
+# Piiquante - openClassrooms web developer P6 2021
 
 📣 Le projet n'est pas utilisable pour l'utilisateur que vous êtes, je vous suggère de me contacter a partir de mon site web http://www.jmax.dev si vous souhaitez l'installer et le tester. 📣
 
